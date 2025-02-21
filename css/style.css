@@ -1,0 +1,78 @@
+/* Header Section */
+.header .header-1 {
+    background: #ffff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-1 .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.header .header-1 .logo i {
+    color: #2E8BC0;
+}
+
+.header .header-1 .search-form {
+    width: 50rem;
+    height: 5rem;
+    border: ipx solid #ccc;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.header .header-1 .search-form input {
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.header .header-1 .search-form label {
+    font-size: 2rem;
+    padding-right: 1.5rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a {
+    font-size: 2rem;    
+    margin-left: 1.5rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover {
+    transform: scale(1.2);
+    color: #2E8BC0;
+}
+
+.header .header-2 {
+    background: #2E8BC0;
+    padding: 1rem 9%;
+    text-align: center;
+}
+
+.header .header-2 .navbar a {
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+}
+
+.header .header-2 .navbar a:hover {
+    background: #0c2d48;
+    border-radius: 10px;
+}
+
+
