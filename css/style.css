@@ -76,3 +76,102 @@
 }
 
 
+/* Login Form Popup */
+.login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0; right: -105%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container.active {
+    right: 0;
+}
+
+.login-form-container form {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login-form-container form h3 {
+    font-size: 2.5rem;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login-form-container form span {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-form-container form .box {
+    width: 100%;
+    margin: .7rem 0;
+    font-size: 1.6rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    text-transform: none;
+}
+
+.login-form-container form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container form .checkbox label {
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.login-form-container form .btn {
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: .9rem;
+    background: #2E8BC0;
+    color: #fff;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.login-form-container form .btn:hover {
+    background: #0C2D48;
+}
+
+.login-form-container form p {
+    padding-top: .8rem;
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.login-form-container form p a {
+    color: #2E8BC0;
+    text-decoration: underline;
+}
+
+#close-login-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: #444;
+    cursor: pointer;
+}
+
