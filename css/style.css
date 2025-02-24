@@ -177,3 +177,132 @@
     cursor: pointer;
 }
 
+/* Home Section */
+.home {
+    background: url(../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 9%;
+}
+
+.home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .row .content {
+    flex: 1 1 42rem;
+}
+
+.home .row .books-slider {
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .books-slider a img {
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img {
+    transform: scale(0.9);
+}
+
+.home .row .content h3 {
+    color: #444;
+    font-size: 4.5rem;
+}
+
+.home .row .content p {
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+
+/* Featured Books Section */
+.featured {
+    padding: 5rem 9%;
+}
+
+.featured .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.featured .featured-slider .box {
+    position: relative;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.featured .featured-slider .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.featured .featured-slider .box .icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.featured .featured-slider .box .icons a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: #444;
+    transition: 0.3s;
+}
+
+.featured .featured-slider .box .icons a:hover {
+    color: #2E8BC0;
+}
+
+.featured .featured-slider .box .image img {
+    width: 100%;
+    height: auto;
+}
+
+.featured .featured-slider .box .content h3 {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 1rem;
+}
+
+
+.featured .featured-slider .box .content .price {
+    font-size: 1.8rem;
+    color: #2E8BC0;
+    margin: 0.5rem 0;
+}
+
+.featured .featured-slider .box .content .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: #666;
+}
+
+
+.featured .featured-slider .box .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    background: #2E8BC0;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.featured .featured-slider .box .btn:hover {
+    background: #0C2D48;
+}
