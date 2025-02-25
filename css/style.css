@@ -306,3 +306,57 @@
 .featured .featured-slider .box .btn:hover {
     background: #0C2D48;
 }
+
+/* New Arrivals Section */
+.arrivals {
+    padding: 5rem 9%;
+}
+
+.arrivals .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.arrivals .arrivals-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.arrivals .arrivals-slider .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3 {
+    font-size: 2rem;
+    color: #444;
+}
+
+.arrivals .arrivals-slider .box .content .price {
+    font-size: 2.2rem;
+    color: #2E8BC0;
+    padding-bottom: 0.5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span {
+    font-size: 1.5rem;
+    color: #666;
+    text-decoration: line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i {
+    font-size: 1.5rem;
+    color: #FFD700;
+}
