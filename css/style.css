@@ -356,7 +356,123 @@
     text-decoration: line-through;
 }
 
+
 .arrivals .arrivals-slider .box .content .stars i {
     font-size: 1.5rem;
     color: #FFD700;
 }
+
+/* Deals Section */
+.deal {
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 5rem 9%;
+}
+
+.deal .content {
+    flex: 1 1 42rem;
+}
+
+.deal .image {
+    flex: 1 1 42rem;
+    text-align: center;
+}
+
+.deal .image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.deal .content h3 {
+    color: #2E8BC0;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.deal .content h1 {
+    color: #444;
+    font-size: 4rem;
+}
+
+.deal .content p {
+    padding: 1rem 0;
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.deal .content .btn {
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    background: #2E8BC0;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.deal .content .btn:hover {
+    background: #0C2D48;
+}
+
+
+/* Reviews Section */
+.reviews {
+    padding: 5rem 9%;
+}
+
+.reviews .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.reviews .reviews-slider .box {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.reviews .reviews-slider .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .reviews-slider .box img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .reviews-slider .box h3 {
+    color: #444;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+
+.reviews .reviews-slider .box p {
+    color: #666;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.reviews .reviews-slider .box .stars {
+    padding-top: .5rem;
+}
+
+.reviews .reviews-slider .box .stars i {
+    font-size: 1.7rem;
+    color: #FFD700;
+}
+
