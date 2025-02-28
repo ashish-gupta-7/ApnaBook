@@ -476,3 +476,124 @@
     color: #FFD700;
 }
 
+/* Blogs Section */
+.blogs {
+    padding: 5rem 9%;
+}
+
+.blogs .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.blogs .blogs-slider .box {
+    margin: 2rem 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.blogs .blogs-slider .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blogs .blogs-slider .box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content {
+    padding: 1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3 {
+    font-size: 2.2rem;
+    color: #444;
+}
+
+.blogs .blogs-slider .box .content p {
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.blogs .blogs-slider .box .content .btn {
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    background: #2E8BC0;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.blogs .blogs-slider .box .content .btn:hover {
+    background: #0C2D48;
+}
+
+
+/* Footer Section */
+.footer {
+    background: #2E8BC0;
+    padding: 3rem 9%;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .box-container .box a i {
+    padding-right: 0.5rem;
+}
+
+.footer .box-container .box a:hover {
+    padding-left: 1rem;
+    color: #FFD700;
+}
+
+.footer .credit {
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    font-size: 1.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .credit span {
+    color: #FFD700;
+}
