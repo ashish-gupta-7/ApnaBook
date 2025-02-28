@@ -1,5 +1,5 @@
 # ApnaBook
-Fully functional book e-commerce website with:  
+Fully functional(froentend) Apnabook e-commerce website with:  
 ✔ A responsive layout
 ✔ Interactive elements
 ✔ Carousels for book listings
