@@ -4,6 +4,17 @@ document.querySelector('#search-btn').onclick = () => {
     searchForm.classList.toggle('active');
 };
 
+//Loader section - to hide the loader after 4 seconds
+function loader() {
+    document.querySelector('.loader-container').classList.add('active');
+}
+
+function fadeOut() {
+    setTimeout(loader, 4000);
+}
+
+window.onload = fadeOut;
+
 
 //Login form 
 let loginForm = document.querySelector('.login-form-container');
